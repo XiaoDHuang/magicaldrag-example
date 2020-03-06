@@ -17,7 +17,18 @@
     <link href="assets/drag/layui-v2.4.5/layui/css/layui.css" rel="stylesheet">
     <link href="assets/drag/layui-v2.4.5/layui-ext.css" rel="stylesheet">
     <link href="assets/drag/css/magical-drag-all.css" rel="stylesheet">
-
+    <script>
+        (function() {
+            let alert = window.alert;
+            Object.defineProperty(window, 'alert', {
+                get() {
+                    debugger;
+                    return alert;
+                }
+            })
+        })()
+        
+    </script>
     <!--基于开源ztree的dom树插件-->
     <script type="text/javascript" src="assets/drag/js/lib/jscore.js"></script>
     <script type="text/javascript" src="assets/drag/js/lib/json3.js"></script>
@@ -580,7 +591,7 @@
 
 <!--begin--><script type="text/javascript" src="../lowcode/page/magicalcoder-page.min.js"></script><!--end-->
 
-<script type="text/javascript" src="assets/drag/js/min/magical-coder-drag-all.js"></script>
+<script type="text/javascript" src="assets/drag/js/min/magical-coder-drag-all2.js"></script>
 
 
 </body>
