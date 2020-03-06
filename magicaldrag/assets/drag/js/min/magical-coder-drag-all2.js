@@ -952,8 +952,8 @@ www_magicalcoder_com_i[_0xb221('0xd')][_0xb221('0xc7')] = function (_0x2943b2) {
                 continue;
             case '6':
                 if (_0x4c5a46[_0xb221('0x114')](_0x2943b2[_0xb221('0xb9')], '') || !_0x2df716[_0xb221('0x134')](_0x2943b2[_0xb221('0xb9')])) {
-                    this[_0xb221('0xc8')]();
-                    return;
+                    //  this[_0xb221('0xc8')]();
+                    // return;
                 }
                 continue;
         }
